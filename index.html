@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Primary Meta Tags -->
+    <title>Module 5 Practice</title>
+    <meta name="title" content="Module 5 Practice" />
+    <meta name="description"
+        content="This is a practice project using HTML, CSS, and Bootstrap that we learned through Modules 1–4." />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://metatags.io/" />
+    <meta property="og:title" content="Module 5 Practice" />
+    <meta property="og:description"
+        content="This is a practice project using HTML, CSS, and Bootstrap that we learned through Modules 1–4." />
+    <meta property="og:image" content="https://metatags.io/images/meta-tags.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://metatags.io/" />
+    <meta property="twitter:title" content="Module 5 Practice" />
+    <meta property="twitter:description"
+        content="This is a practice project using HTML, CSS, and Bootstrap that we learned through Modules 1–4." />
+    <meta property="twitter:image" content="https://metatags.io/images/meta-tags.png" />
+    <!-- Above meta tag has been coppied from https://metatags.io -->
+
+    <!-- Link to external css files -->
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+    
+    <!-- Nevigation bar -->
+    <nav class="navbar navbar-expand-lg bg-light shadow-sm sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bolder" href="">My Module 5 Project</a>
+            <ul class="navbar-nav">
+                <li><a class="nav-link" href="#!">Home</a></li>
+                <li><a class="nav-link" href="#!">About</a></li>
+                <li><a class="nav-link" href="#!">Service</a></li>
+                <li><a class="nav-link" href="#!">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 10 bootstrap button exaples -->
+    <section class="mt-5">
+        <h3 class="display-6 text-muted text-center p-3">Buttons Examples</h3>
+        <div class="container, mt-3 d-flex justify-content-center">
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-4">
+                    <button type="button" class="btn btn-primary mb-3 me-2">BS Button 1</button>
+                    <button type="button" class="btn btn-secondary mb-3 me-2">BS Button 2</button>
+                    <button type="button" class="btn btn-outline-primary mb-3 me-2">BS Button 3</button>
+                    <button type="button" class="btn btn-success disabled mb-3 me-2">BS Button 4</button>
+                    <button type="button" class="btn btn-primary active mb-3 me-2">BS Button 5</button>
+
+                </div>
+                <div class="col-md-4">
+                    <a class="btn btn-link mb-3" href="#">BS Button 6</a>
+                    <!-- Button 7 is created by custom css-->
+                    <button type="button" class="btn_custom mb-3 ms-2">BS Button 7</button>
+                    <button type="button" class="btn btn-info btn-lg mb-3 ms-2">BS Button 8</button>
+                    <button type="button" class="btn btn-dark btn-sm mb-3 ms-2">BS Button 9</button>
+                    <button type="button" class="btn btn-warning mb-3 ms-2">BS Button 10</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Card design -->
+    <section class="mt-5">
+        <h3 class="display-6 text-muted text-center p-3">Cards Examples</h3>
+        <div class="container">
+            <div class="row">
+                <!-- card - 1 -->
+                <div class="col-4 d-flex"> <!-- To maintain the same size and alignment of the card -->
+                    <div class="card">
+                        <img src="/assets/html.jpg" alt="loading" class="img-fluid mx-auto card_image_size">
+                        <!-- Card_image_size is customized css class. mx-auto class will align the image center -->
+                        <div class="card-body">
+                            <h5 class="card-title">HTML</h5>
+                            <p class="card-text">HTML is the standard markup language used to create the structure of
+                                web pages by defining elements like headings, paragraphs, links, images, and more.
+                            </p>
+                            <a href="#!">Learn more...</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- card - 2 -->
+                <div class="col-4 d-flex"> <!-- To maintain the same size and alignment of the card -->
+                    <div class="card">
+                        <img src="/assets/css.png" alt="loading" class="img-fluid mx-auto card_image_size">
+                        <!-- Card_image_size is customized css class. mx-auto class will align the image center -->
+                        <div class="card-body">
+                            <h5 class="card-title">CSS</h5>
+                            <p class="card-text">CSS is a stylesheet language used to control the presentation and
+                                layout of web pages, allowing for the customization of colors, fonts, spacing, and
+                                positioning.
+                            </p>
+                            <a href="#!">Learn more...</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- card - 3 -->
+                <div class="col-4 d-flex"> <!-- To maintain the same size and alignment of the card -->
+                    <div class="card">
+                        <img src="/assets/bootstrap-1536.png" alt="loading" class="img-fluid mx-auto card_image_size">
+                        <!-- Card_image_size is customized css class. mx-auto class will align the image center -->
+                        <div class="card-body">
+                            <h5 class="card-title">Bootstrap</h5>
+                            <p class="card-text">Bootstrap is a popular front-end framework that provides pre-designed
+                                HTML, CSS, and JavaScript components for building responsive and mobile-first websites
+                                quickly and easily.
+                            </p>
+                            <a href="#!">Learn more...</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Form Design -->
+    <section class="mt-5">
+        <h3 class="display-6 text-muted text-center p-3">Form Examples</h3>
+        <div class="container">
+            <div class="row justify-content-center"> <!-- to center the form -->
+                <div class="col-md-6 col-lg-4"> <!-- to give shape to the form on different screens -->
+                    <div class="card">
+                        <h5 class="card-header">Sign-up Form</h5>
+                        <div class="card-body">
+                            <form>
+                                <!-- input form -->
+                                <div class="mb-3">
+                                    <label for="name" class="form-label">Name</label>
+                                    <input type="text" id="name" placeholder="Enter your name" class="form-control">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">E-mail</label>
+                                    <input type="email" id="email" class="form-control"
+                                        placeholder="Enter your email address">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="password" class="form-label">Passwrd</label>
+                                    <input type="password" id="password" class="form-control"
+                                        placeholder="Enter your password">
+                                </div>
+                                <!-- Radio buttons for gender -->
+                                <div class="mb-3">
+                                    <label class="form-label">Gender</label> <br>
+                                    <div class="form-check form-check-inline">
+                                        <!-- to bring all the radio items in one line -->
+                                        <input class="form-check-input" type="radio" id="male" name="gender"
+                                            value="Male">
+                                        <label for="male">Male</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <!-- to bring all the radio items in one line -->
+                                        <input class="form-check-input" type="radio" id="female" name="gender"
+                                            value="Female">
+                                        <label for="female">Female</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <!-- to bring all the radio items in one line -->
+                                        <input class="form-check-input" type="radio" id="other" name="gender"
+                                            value="Other">
+                                        <label for="other">Other</label>
+                                    </div>
+                                </div>
+                                <!-- Checkbox for terms and conditions -->
+                                <div class="mb-3 form-check">
+                                    <input type="checkbox" id="terms" class="form-check-input">
+                                    <label for="terms" class="form-check-label">I agree to the terms and
+                                        conditions</label>
+                                </div>
+                                <button type="submit" class="btn btn-primary w-100">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- List -->
+    <section class="mt-5">
+        <h3 class="display-6 text-muted text-center p-3">List Examples</h3>
+        <div class="container">
+            <div class="row justify-content-center"> <!-- to center the form -->
+                <div class="col-md-6 col-lg-4"> <!-- to give shape to the form on different screens -->
+                    <div class="card">
+                        <h5 class="card-header">List of available courses</h5>
+                        <div class="card-body">
+                            <ul class="list-group">
+                                <li class="list-group-item">MERN</li>
+                                <li class="list-group-item">Flutter</li>
+                                <li class="list-group-item">Webflow</li>
+                                <li class="list-group-item">ASP.net</li>
+                                <li class="list-group-item">Shopify</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4"> <!-- to give shape to the form on different screens -->
+                    <div class="card">
+                        <h5 class="card-header">Branch List</h5>
+                        <div class="card-body">
+                            <ul class="list-group">
+                                <li class="list-group-item">Banani</li>
+                                <li class="list-group-item">Uttara</li>
+                                <li class="list-group-item">Mohammadpur</li>
+                                <li class="list-group-item">Mirpur</li>
+                                <li class="list-group-item">Banasri</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Table -->
+    <section class="mt-5">
+        <h3 class="display-6 text-muted text-center p-3">Table Examples</h3>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card">
+                        <h5 class="card-header">Course fees</h5>
+                        <div class="card-body">
+                            <table class="table table-striped table-hover table-responsive">
+                                <thead class="table-dark">
+                                    <tr>
+                                        <th>SL # </th>
+                                        <th>Course Name</th>
+                                        <th>Branch Name</th>
+                                        <th>Fees</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>01</td>
+                                        <td>MERN</td>
+                                        <td>Banani</td>
+                                        <td>BDT 8,000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>02</td>
+                                        <td>Flutter</td>
+                                        <td>Uttara</td>
+                                        <td>BDT 7,000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>03</td>
+                                        <td>Webflow</td>
+                                        <td>Mirpur</td>
+                                        <td>BDT 5,000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>04</td>
+                                        <td>ASP.net</td>
+                                        <td>Banasri</td>
+                                        <td>BDT 6,000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>05</td>
+                                        <td>Shopify</td>
+                                        <td>Mohammadpur</td>
+                                        <td>BDT 3,000</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dropdown examples -->
+    <section class="mt-5">
+        <h3 class="display-6 text-muted text-center p-3">Dropdown Example</h3>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card">
+                        <h5 class="card-header">Dropdowns</h5>
+                        <div class="card-body dropdown-center">
+                            <!-- data-bs-toggle="dropdown" is the main key class for drop down  -->
+                            <button class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" type="button"
+                                id="dropdown">Select your district</button>
+                            <ul class="dropdown-menu"> <!-- This class will hide the items under the button /  -->
+                                <li class="dropdown-item">Dhaka</li>
+                                <li class="dropdown-item">Khulna</li>
+                                <li class="dropdown-item">Jessore</li>
+                                <li class="dropdown-item">Barishal</li>
+                                <li class="dropdown-item">Rajshahi</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Progress bar examples -->
+    <section class="mt-5">
+        <h3 class="display-6 text-muted text-center p-3">Progress bar Example</h3>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="card">
+                        <h5 class="card-header">Your current progress</h5>
+                        <div class="card-body">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                                    style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                    75%
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Pagination -->
+    <section class="mt-5">
+        <h5 class="display-6 text-muted text-center p-3">Pagination Example</h5>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6 col-lg-4">
+                    <ul class="pagination justify-content-center">
+                        <li><a class="page-link" href="#1">Previous</a></li>
+                        <li><a class="page-link" href="#1">1</a></li>
+                        <li><a class="page-link" href="#1">2</a></li>
+                        <li><a class="page-link" href="#1">3</a></li>
+                        <li><a class="page-link" href="#1">Next</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <br>
+    <br>
+    <br>
+
+    <!-- Link to JavaScript file -->
+    <script src="/js/bootstrap.bundle.js"></script>
+    <script src="/js/script.js"></script>
+</body>
+
+</html>

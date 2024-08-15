@@ -1,0 +1,22 @@
+.btn_custom{
+    height: 40px;
+    width: 100px;
+    background-color: brown;
+    color: white;
+    border: none;
+    padding: 10px, 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color .3s ease;
+}
+
+.btn_custom:hover{
+    background-color: rgb(255, 0, 200);
+}
+
+.card_image_size{
+    height: 300px;
+    width: 200px;
+    object-fit: cover;
+}
